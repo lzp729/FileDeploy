@@ -270,5 +270,11 @@ namespace FileDeploy
                     this.btnGo.Text = "Go";
                 });
         }
+
+        private void lnk_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            System.Diagnostics.Process.Start(@"https://github.com/lzp729/FileDeploy");
+        }
     }
 }
